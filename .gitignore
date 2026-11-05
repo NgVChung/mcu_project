@@ -1,0 +1,13 @@
+cat > .gitignore <<'EOF'
+# File và thư mục sinh ra khi build
+build/
+Objects/
+Listings/
+*.o
+*.elf
+*.hex
+*.axf
+
+# Cấu hình cá nhân của Keil uVision
+*.uvguix.*
+EOF
